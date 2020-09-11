@@ -1,0 +1,49 @@
+/*---------------------------------------------------------
+Name Template	: Safe TOD v1.0
+Creator			: Admin_TOD
+--------------------------------------------------------- */
+
+*{outline: none;}
+body {background-color: #ecf0f1;margin:0px;font-size: 13px;color: #000;font-family: "Lucida sans unicode", "Lucida sans", sans-serif; }
+.sign-wrap{display: block;padding: 0;max-width: 500px;margin: 0 auto;}
+.sign {box-shadow: 0 2px 4px rgba(0,0,0,.1);background: #fff;display: block;padding: 30px;border-radius: 3px;margin: 30px;}
+.contect{background: #fff;margin: 7px 0;padding: 12px;font-size: 16px;float: none;color: #666;width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;border: 1px solid #e5e7eb;border-radius: 3px;}
+.btn-submit {background: #009688;   border: 1px solid #009688;font-size: 16px;padding: 12px 20px;color: #fff;width: auto;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;border-radius: 3px;cursor: pointer;margin: 7px 0;}
+.btn-submit:hover{color:#fff;background:#000;border: 1px solid #000;}
+.btn-ku {cursor: pointer;margin: 5px 2px 0 0;padding: 12px 20px;background: #fbfbfb;display: inline-block;border-radius: 3px;border: 1px solid #ddd;color: #333;}
+.btn-ku:hover{color:#fff;background: #009688;border: 1px solid #009688;}
+.text {padding: 12px;margin: 7px 0;font-size: 16px;width: 100%;height: 100px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;border: 1px solid #e5e7eb;border-radius: 3px;color: #666;}
+.menulist {border-bottom: 1px solid #eee;padding: 20px 10px;margin: 0;font-weight: 400;}
+.btn-cloud{margin:5px 2px 0 0;padding:4px;font-size:12px;color:#fff;background:#009688;display:inline-block;border-radius:3px}
+.btn-cloud:hover{color:#fff;background:#000}
+.fp {float:right;}
+.info{color:#fff;background:#009688;padding:10px;margin:10px 0;border-radius:3px;box-shadow:0 1px 5px rgba(0,0,0,.25)}
+.info a {color:#000}
+.box {border: 0;box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);position: relative;min-width: 0;padding: 15px;margin: 0 0 15px;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 1px solid rgba(0,0,0,.12);border-radius: .125rem;overflow: hidden;}
+.alignleft {margin-right:10px;}
+input[type="text"]:focus,input[type="url"]:focus  { outline: none; }
+#outer-wrapper { max-width:768px;width:100%;margin:10px auto ;padding:10px;background-color: #fff;}
+#header-wrapper a {color: #000;}
+#header-wrapper a:hover { color: #009688;}
+a {text-decoration:none;color: #009688;}
+a img {border-width:0;background-position: center; margin-left: auto; margin-right: auto;}
+#navbar-iframe, .feed-links, .jump-link {display:none}
+h1 {font-size:24px;}
+h2 {font-size:14px;}
+h3 {font-size:18px;}
+h3 .post-title {background-image: none;}
+h3 .entry-title {background-image: none;}
+h4 {font-size:12px;}
+h5 {font-size:10px;}
+h6 {font-size:8px;}
+hr {background-color:$bordercolor;border:0;height:1px;margin-bottom:2px;clear:both;}
+#content-wrapper img {max-width: 100%;height: auto;}
+#header-wrapper {width: 100%;}
+#footer-wrapper {text-align: center;width: 100%;height: 17px;margin: 10 auto;font-size:12px;color: #333;font-family: "Myriad Pro", Myriad, Geneva, Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+#footer-wrapper a, #footer-wrapper a:visited{text-decoration:none;color: #009688;}
+#footer-wrapper a:hover{text-decoration:none;color: #000;}
+.Visit_Link {color:#fff;background-color:#000;cursor: pointer;display: inline-block;font-family: arial,sans-serif;line-height: 1.54;border: 0px;}
+@media only screen and (max-width:1024px){#outer-wrapper{width:100%;height:100%;}#header img {width:100%;height: auto;}}
+@media only screen and (max-width:768px){#outer-wrapper{width:90%;}}
+@media only screen and (max-width:728px){#outer-wrapper{width:90%;}}
+@media only screen and (max-width:240px){#outer-wrapper{padding: 0px;}#style{padding: 0px;}}
